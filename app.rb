@@ -4,11 +4,11 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	get '/views' do
+	get '/' do
 		erb :hello
 	end
 
-	get '/views' do
+	get '/' do
 		erb :goodbye
 	end
 end
