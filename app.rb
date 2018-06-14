@@ -8,4 +8,7 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
+	get '/views' do
+		erb :goodbye
+	end
 end
