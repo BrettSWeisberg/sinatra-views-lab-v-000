@@ -3,5 +3,5 @@
   <html>
     <h1><Today</h1>
     <%binding.pry %>
-    <p>Today is <%= @time.wday + @time.month + @time.day + @time.year%></p>
+    <p>Today is <%=@date.strftime("%B %d, %Y")%></p>
   </html>
