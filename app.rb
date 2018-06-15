@@ -13,6 +13,7 @@ class App < Sinatra::Base
 	end
 
 	get '/date' do
+		@time = Time.new
 		erb :date
 	end
 
